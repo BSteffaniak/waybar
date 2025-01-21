@@ -98,7 +98,9 @@
     "spacing": 10,
   },
   "clock": {
+    "interval": 1,
     // "timezone": "America/New_York",
+    "format": "{:%m-%d-%Y  //  %H:%M:%S}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}",
   },
