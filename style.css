@@ -109,9 +109,11 @@ button:hover {
 #idle_inhibitor,
 #window,
 #mpd {
+  color: @bgvisible;
+  background-color: @bordercolor;
+  margin: 5px;
   padding: 0px 5px;
-  margin: 0px 5px;
-  color: @bordercolor;
+  border-radius: 5px;
 }
 
 #custom-notification,
